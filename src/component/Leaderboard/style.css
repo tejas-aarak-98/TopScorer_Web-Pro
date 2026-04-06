@@ -1,0 +1,104 @@
+/* Page background */
+
+.leaderboard-page{
+    margin-top: 40px;
+  min-height:100vh;
+  background: linear-gradient(135deg,#4e73df,#6f42c1);
+  padding:40px;
+}
+
+
+/* Card container */
+
+.leaderboard-container{
+  max-width:800px;
+  margin:auto;
+  background:white;
+  border-radius:12px;
+  padding:30px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+
+/* Title */
+
+.leaderboard-title{
+  text-align:center;
+  margin-bottom:20px;
+  font-size:28px;
+  font-weight:600;
+}
+
+
+/* Table */
+
+.leaderboard-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+
+/* Header */
+
+.leaderboard-table th{
+  background:#4e73df;
+  color:white;
+  padding:12px;
+  font-size:16px;
+}
+
+
+/* Body */
+
+.leaderboard-table td{
+  padding:12px;
+  text-align:center;
+  border-bottom:1px solid #eee;
+}
+
+
+/* Hover */
+
+.leaderboard-table tr:hover{
+  background:#f4f6fb;
+  transition:0.3s;
+}
+
+
+/* Top 3 highlight */
+
+.leaderboard-table tbody tr:nth-child(1){
+  background:rgba(255,215,0,0.2);
+}
+
+.leaderboard-table tbody tr:nth-child(2){
+  background:rgba(192,192,192,0.2);
+}
+
+.leaderboard-table tbody tr:nth-child(3){
+  background:rgba(205,127,50,0.2);
+}
+
+
+.leaderboard-table tbody tr{
+ transition: all 0.3s ease;
+}
+
+.leaderboard-table tbody tr:hover{
+ transform: scale(1.01);
+ box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Rank style */
+
+.rank{
+  font-weight:bold;
+}
+
+
+/* Score */
+
+.score{
+  color:#4e73df;
+  font-weight:600;
+}
