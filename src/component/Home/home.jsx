@@ -1,6 +1,6 @@
 import "./home.css"
 import { Link } from "react-router-dom";
-import studentImg from "../../assets/speed test-rafiki.svg";
+import studentImg from "../../assets/test-rafiki.svg";
 import Navbar from "../Navbar/navbar";
 import Footer from "../Footer/footer";
 
