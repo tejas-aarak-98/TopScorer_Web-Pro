@@ -1,5 +1,5 @@
 import { useEffect,useState } from 'react';
-import './Exam.css';
+import './exam.css';
 import Navbar from '../Navbar/navbar';
 import Cookies from 'js-cookie';
 import { useNavigate } from "react-router-dom";
