@@ -21,7 +21,7 @@ const Exam = () => {
       setLoading(true);
       const token = Cookies.get("myToken");
 
-      let Api = "http://localhost:8080/topscorer/student/exam/1";
+      let Api = "https://topscorerbackend-4.onrender.com/topscorer/student/exam/1";
 
           const options = {
            method : "Get",
