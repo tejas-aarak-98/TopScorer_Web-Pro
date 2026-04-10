@@ -18,7 +18,7 @@ const Leaderboard = () => {
 
       const token = Cookies.get("myToken");
 
-      const api = "http://localhost:8080/topscorer/exam/1/leaderboard";
+      const api = "https://topscorerbackend-4.onrender.com/topscorer/exam/1/leaderboard";
 
       const options = {
         method: "GET",
